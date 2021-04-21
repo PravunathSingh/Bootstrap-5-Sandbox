@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Bootstrap 5 Sandbox | Containers</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-dark bg-dark mb-5">
+    <div class="container">
+      <a href="../index.html" class="navbar-brand mx-auto py-1">Bootstrap 5 Sandbox</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h4>Default .container class is a responsive, fixed-width container, meaning its max-width changes at each
+      breakpoint.</h4>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vitae earum sequi, animi explicabo odit fuga
+      rerum quisquam, excepturi cum facere delectus impedit suscipit voluptate est tenetur cumque eos? Facere quod
+      excepturi enim, debitis ex accusantium cupiditate consectetur! Ipsum quaerat nisi magnam qui earum nesciunt quod
+      quos architecto assumenda impedit!</p>
+  </div>
+  <br>
+  <br>
+
+  <div class="container-fluid">
+    <h4>Fluid container is a container whose width is always 100% at all breakpoints. Use .container-fluid for a full
+      width container, spanning the entire width of the viewport.</h4>
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus aliquid aperiam provident accusantium
+      quaerat, necessitatibus rem suscipit inventore dolore soluta ducimus et tempore nam sed excepturi dignissimos
+      dicta a perspiciatis?</p>
+  </div>
+  <br>
+  <br>
+
+  <h4>Responsive containers allow you to specify a class that is 100% wide until the specified breakpoint is reached,
+    after which we apply max-widths for each of the higher breakpoints. For example, .container-sm is 100% wide to start
+    until the sm breakpoint is reached, where it will scale up with md, lg, xl, and xxl.</h4>
+
+  <div class="container-sm">100% wide until small breakpoint</div>
+  <div class="container-md">100% wide until medium breakpoint</div>
+  <div class="container-lg">100% wide until large breakpoint</div>
+  <div class="container-xl">100% wide until extra large breakpoint</div>
+  <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+</body>
+
+</html>
