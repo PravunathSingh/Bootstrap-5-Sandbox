@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Bootstrap 5 Sandbox | Grid</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-dark bg-dark mb-5">
+    <div class="container">
+      <a href="../index.html" class="navbar-brand mx-auto py-1">Bootstrap 5 Sandbox</a>
+    </div>
+  </nav>
+</body>
+
+<div class="container">
+  <p class="lead mb-5">Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align
+    content. It’s built with <strong>flexbox</strong> and is fully responsive.</p>
+
+  <div class="row mb-4 gx-2">
+    <div class="col-sm bg-secondary text-white">Equal width columns that stack at .sm breakpoint</div>
+    <div class="col-sm bg-secondary text-white">Equal width columns that stack at .sm breakpoint</div>
+    <div class="col-sm bg-secondary text-white">Equal width columns that stack at .sm breakpoint</div>
+    <div class="col-sm bg-secondary text-white">Equal width columns that stack at .sm breakpoint</div>
+  </div>
+
+  <div class="row mb-4 gx-2">
+    <div class="col-md bg-secondary text-white">Equal width columns that stack at .md breakpoint</div>
+    <div class="col-md bg-secondary text-white">Equal width columns that stack at .md breakpoint</div>
+    <div class="col-md bg-secondary text-white">Equal width columns that stack at .md breakpoint</div>
+    <div class="col-md bg-secondary text-white">Equal width columns that stack at .md breakpoint</div>
+  </div>
+
+  <h4 class="mb-4">Similarly we can create equal width columns that stack at .lg .xl and .xxl breakpoints</h4>
+
+  <!-- Auto layout grids -->
+  <div class="row mb-4 gx-2">
+    <div class="col bg-secondary text-white">Equal width columns that don't stack</div>
+    <div class="col bg-secondary text-white">Equal width columns that don't stack</div>
+    <div class="col bg-secondary text-white">Equal width columns that don't stack</div>
+    <div class="col bg-secondary text-white">Equal width columns that don't stack</div>
+  </div>
+
+  <!-- Setting width of specific column -->
+  <div class="row mb-4 gx-2">
+    <div class="col bg-secondary text-white">Equal width columns that don't stack</div>
+    <div class="col-6 bg-secondary text-white">6 column width, also dosen't stack</div>
+    <div class="col bg-secondary text-white">Equal width columns that don't stack</div>
+  </div>
+
+  <!-- Setting width of different columns -->
+  <div class="row mb-4 gx-2">
+    <div class="col-3 bg-secondary text-white">3 column width that don't stack</div>
+    <div class="col-5 bg-secondary text-white">5 column width, also dosen't stack</div>
+    <div class="col-4 bg-secondary text-white">4 column width that don't stack</div>
+  </div>
+
+  <!-- Row columns -->
+  <h4 class="mb-3">Use the responsive .row-cols-* classes to quickly set the number of columns that best render your
+    content and layout. Whereas normal .col-* classes apply to the individual columns (e.g., .col-md-4), the row columns
+    classes are set on the parent .row as a shortcut. With .row-cols-auto you can give the columns their natural width.
+
+    Use these row columns classes to quickly create basic grid layouts or to control your card layouts</h4>
+
+  <div class="row row-cols-3 gx-2">
+    <div class="col bg-secondary text-white">Column</div>
+    <div class="col bg-secondary text-white">Column</div>
+    <div class="col bg-secondary text-white">Column</div>
+    <div class="col bg-secondary text-white">Column</div>
+  </div>
+</div>
+
+</html>
