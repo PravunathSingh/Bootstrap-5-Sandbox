@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Bootstrap 5 | Off Canvas</title>
+</head>
+
+<body>
+  <div class="container">
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1"
+      aria-controls="offcanvas1">
+      Button with data-bs-target
+    </button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas1">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+          etc.
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas2"
+      aria-controls="offcanvas2">Off Canvas with scroll</button>
+    <div class="offcanvas offcanvas-start" id="offcanvas2" tabindex="-1" data-bs-scroll="true">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Off Canvas with scroll</h5>
+        <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores magni maiores odio et eius velit
+          dignissimos consequatur culpa, dolorem quas?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
